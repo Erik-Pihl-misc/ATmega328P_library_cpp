@@ -1,5 +1,5 @@
 /********************************************************************************
- * @brief Driver for miscellaneous GPIO devices.
+ * @brief Driver for miscellaneous GPIO devices connected to ATmega328P.
  ********************************************************************************/
 #pragma once
 

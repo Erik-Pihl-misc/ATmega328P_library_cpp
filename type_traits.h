@@ -9,7 +9,7 @@ namespace type_traits
 {
 
 /********************************************************************************
- * @brief Indicates if specified type T is of unsigned integral type.
+ * @brief Indicates if specified type is of unsigned integral type.
  *
  * @param value Constant set to true for unsigned integral types, 
  *              false for everything else.
@@ -57,7 +57,7 @@ struct is_unsigned<uint64_t>
 };
 
 /********************************************************************************
- * @brief Indicates if specified type T is of signed integral type.
+ * @brief Indicates if specified type is of signed integral type.
  *
  * @param value Constant set to true for signed integral types, 
  *              false for everything else.
@@ -105,7 +105,7 @@ struct is_signed<int64_t>
 };
 
 /********************************************************************************
- * @brief Indicates if specified type T is of integral type, which encompasses
+ * @brief Indicates if specified type is of integral type, which encompasses
  *        both signed and unsigned integers.
  *
  * @param value Constant set to true for integral types, false for 
@@ -118,7 +118,7 @@ struct is_integral
 };
 
 /********************************************************************************
- * @brief Indicates if specified type T is of floating-point type.
+ * @brief Indicates if specified type is of floating-point type.
  *
  * @param value Constant set to true for floating-point types, false for
  *              everything else.
@@ -148,7 +148,7 @@ struct is_floating_point<double>
 };
 
 /********************************************************************************
- * @brief Indicates if specified type T is of arithmetic type, i.e. integral
+ * @brief Indicates if specified type is of arithmetic type, i.e. integral
  *        or floating-point type.
  *
  * @param value Constant set to true for arithmetic types, false for

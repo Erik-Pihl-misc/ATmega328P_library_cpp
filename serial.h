@@ -1,5 +1,5 @@
 /********************************************************************************
- * @brief Driver for serial transmission via USART.
+ * @brief Driver for serial transmission on ATmega328P via USART.
  ********************************************************************************/
 #pragma once
 
