@@ -62,7 +62,7 @@ void timer1Callback(void)
 }
 
 /********************************************************************************
- * @brief Sets callback routines, enabled pin change interrupt on button1 and
+ * @brief Sets callback routines, enables pin change interrupt on button1 and
  *        enables the watchdog timer in system reset mode.
  ********************************************************************************/
 inline void setup(void) 
@@ -79,10 +79,8 @@ inline void setup(void)
 } // namespace
 
 /********************************************************************************
- * @brief Perform a setup of the system, then running the program as long as
- *        voltage is supplied. The hardware is interrupt controlled, hence the
- *        while loop is almost empty. If the program gets stuck anywhere, the
- *        watchdog timer won't be reset in time and the program will then restart.
+ * @brief Performs a setup of the system, then running the program as long as
+ *        voltage is supplied.
  ********************************************************************************/
 int main(void)
 {
